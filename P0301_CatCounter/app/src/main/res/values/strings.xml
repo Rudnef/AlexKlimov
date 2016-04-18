@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P0301_CatCounter</string>
+    <string name="cat_count">Считать котов</string>
+    <string name="crow_counter">Считать ворон</string>
+    <string name="hello">приветствовать</string>
+    <string name="counter">счетчик</string>
+</resources>
