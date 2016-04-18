@@ -10,4 +10,6 @@
     Идёт <b>направо</b> - песнь заводит,\n
     <b>Налево</b> - сказку говорит.</string>
     <string name="first">первый экран</string>
+    <string name="answer">отправить</string>
+    <string name="from_who">от кого</string>
 </resources>

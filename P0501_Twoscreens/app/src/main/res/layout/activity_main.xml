@@ -26,4 +26,44 @@
         android:id="@+id/btn_second"
         android:layout_below="@+id/btn_show_info"
         android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Кому"
+        android:id="@+id/et_name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/et_name"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/first"
+        android:id="@+id/et_message" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_from_who"
+        android:layout_below="@+id/et_message"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/from_who" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer"
+        android:id="@+id/btn_answer"
+        android:onClick="onSend"
+        android:layout_above="@+id/btn_show_info"
+        android:layout_centerHorizontal="true" />
+
+
 </RelativeLayout>
