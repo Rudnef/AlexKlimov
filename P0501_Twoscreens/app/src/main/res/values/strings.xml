@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">P0501_Two screens</string>
+    <string name="about_title">О программе</string>
+    <string name="second">второй экран</string>
+
+    <string name="about">У лукоморья дуб зелёный;\n
+    Златая цепь на дубе том:\n
+    И днём и ночью <b>кот учёный</b>\n
+    Всё ходит по цепи кругом;\n
+    Идёт <b>направо</b> - песнь заводит,\n
+    <b>Налево</b> - сказку говорит.</string>
+    <string name="first">первый экран</string>
+    <string name="answer">отправить</string>
+    <string name="from_who">от кого</string>
+</resources>
