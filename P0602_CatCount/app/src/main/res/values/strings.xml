@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">P0602_CatCount</string>
+    <string name="catCount">считаем котов</string>
+</resources>

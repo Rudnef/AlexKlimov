@@ -9,10 +9,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.rudnef.p06_01_orientation.MainActivity">
 
+    <EditText
+        android:id="@+id/et_new_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <Button
+        android:layout_below="@id/et_new_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Первая кнопка"
+        android:text="@string/showOrientation"
+        android:onClick="showOrientation"
         android:id="@+id/btn_1"
         android:layout_centerHorizontal="true" />
 
@@ -20,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Вторая кнопка"
+        android:onClick="showOrientation1"
         android:id="@+id/button2"
         android:layout_below="@+id/btn_1"
         android:layout_alignRight="@+id/btn_1"
@@ -29,6 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Третья кнопка"
+        android:onClick="showRotation"
         android:id="@+id/btn_2"
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true" />
@@ -38,6 +47,7 @@
         android:layout_height="wrap_content"
         android:text="Четвертая кнопка"
         android:id="@+id/btn_4"
+        android:onClick="OnRotate"
         android:layout_below="@+id/btn_2"
         android:layout_centerHorizontal="true" />
 
@@ -57,4 +67,16 @@
         android:id="@+id/bnt_6"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_1"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      />
 </RelativeLayout>
