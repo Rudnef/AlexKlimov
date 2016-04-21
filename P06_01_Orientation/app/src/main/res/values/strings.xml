@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">P06_01_Orientation</string>
+    <string name="showOrientation">показать ориентацию</string>
 </resources>

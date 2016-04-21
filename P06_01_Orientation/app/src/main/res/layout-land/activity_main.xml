@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:id="@+id/et_new_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:stretchColumns="*">
+
+            <TableRow>
+                <Button
+                    android:id="@+id/btn_1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:onClick="showOrientation"
+                    android:text="@string/showOrientation"/>
+
+                <Button
+                    android:id="@+id/btn_2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:onClick="showOrientation1"
+                    android:text="Вторая кнопка"/>
+
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    android:id="@+id/btn_3"
+                    android:layout_height="wrap_content"
+                    android:onClick="showRotation"
+                    android:layout_width="match_parent"
+                    android:text="Третья кнопка"/>
+
+                <Button
+                    android:id="@+id/btn_4"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:onClick="OnRotate"
+                    android:text="Четвертая кнопка"/>
+
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    android:id="@+id/btn_5"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="Пятая кнопка"/>
+
+                <Button
+                    android:id="@+id/btn_6"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="Шестая кнопка"/>
+
+            </TableRow>
+        </TableLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_1"
+            android:layout_below="@+id/bnt_6"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+</LinearLayout>
