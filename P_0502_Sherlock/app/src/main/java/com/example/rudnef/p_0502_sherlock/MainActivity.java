@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     public static final int CHOOSE_THIEF = 0;
+    public static final String ACTION_CHOOSE_ACTIVITY = "rudnef.p_0502_sherlock.ChooseActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,5 +37,13 @@ public class MainActivity extends AppCompatActivity {
                 tv_who_trie.setText("");
             }
         }
+    }
+
+    public void onTwo(View view) {
+        startActivity(new Intent(ACTION_CHOOSE_ACTIVITY));
+    }
+
+    public void onThree(View view) {
+        startActivity(new Intent(ACTION_CHOOSE_ACTIVITY));
     }
 }
