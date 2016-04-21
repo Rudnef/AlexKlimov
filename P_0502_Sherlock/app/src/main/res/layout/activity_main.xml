@@ -43,4 +43,25 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:text="@string/choose" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:onClick="onTwo"
+        android:layout_height="wrap_content"
+        android:text="@string/next_activity"
+        android:id="@+id/btn_second_activity"
+        android:layout_below="@+id/btn_choose"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/activity_three"
+        android:onClick="onThree"
+        android:id="@+id/button"
+        android:layout_below="@+id/btn_second_activity"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

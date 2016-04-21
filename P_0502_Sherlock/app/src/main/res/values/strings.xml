@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">P_0502_Sherlock</string>
     <string name="choose">Выбрать</string>
+    <string name="sherlock">Шерлок</string>
     <string name="who_thief">Кто украл кусочек колбаски?</string>
     <string name="choose_right_answer">Выберете правильный ответ</string>
+    <string name="next_activity">Перейти на вторую активити</string>
+    <string name="activity_three">Перейти на третью активити</string>
+    <string name="three_activity">Третий экран</string>
 </resources>
